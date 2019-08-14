@@ -36,7 +36,7 @@ const SignUp = props => {
                 'Content-Type': 'application/json'
             }
         });
-        props.history.push('/');
+        props.history.push('/dashboard');
     };
 
     return (
