@@ -1,5 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
-}
+@import './base.scss';
+@import './components/navigation';
+@import './pages/signUp';
