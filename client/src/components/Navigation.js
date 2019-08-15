@@ -10,6 +10,7 @@ const Navigation = () => {
             <nav className="navigation__right">
                 <ul>
                     <li><div className="navigation__links"><NavLink to='/signup'>sign up</NavLink></div></li>
+                    <li><div className="navigation__links"><NavLink to='/login'>log in</NavLink></div></li>
                 </ul>
             </nav>
         </div>

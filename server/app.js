@@ -19,7 +19,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(isAuth)
+app.use(isAuth);
 
 app.use('/graphql', graphQLHTTP({
     graphiql: true,

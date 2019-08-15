@@ -7,4 +7,16 @@
 
     display: flex;
     justify-content: space-between;
+
+    &__right {
+        
+        & ul {
+            display: flex;
+            width: 40rem;
+
+            & li {
+                padding: 1rem 2rem;
+            }
+        }
+    }
 }

@@ -23,6 +23,11 @@ li {
   font-size: 3rem;
   display: flex;
   justify-content: space-between; }
+  .navigation__right ul {
+    display: flex;
+    width: 40rem; }
+    .navigation__right ul li {
+      padding: 1rem 2rem; }
 
 .signUp {
   width: 40rem;
